@@ -1,4 +1,7 @@
+/* base.css */
 body {
     font-family: var(--fonte-principal);
     color: #333333;
+
+    background-color: #000000;
 }
