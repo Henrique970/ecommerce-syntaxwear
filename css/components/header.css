@@ -3,11 +3,11 @@
     
     /* Colocando o header no topo da página e centralizado */
     position: fixed;
-    top: 20px;
+    top: 60px;
     left: 50%;
     transform: translateX(-50%);
     
-    width: calc(100% - 40px);
+    width: calc(100% - 210px);
     border-radius: 15px;
     
     /* O z-index faz com que o header fique na frente de outros elementos na página */
