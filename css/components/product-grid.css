@@ -76,3 +76,33 @@
     display: flex;
     gap: 10px;
 }
+
+@media (max-width: 768px) {
+    .grid-section {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(5, 300px);
+        grid-template-areas:
+            "highlight highlight"
+            "sneaker-while sneaker-while"
+            "model sneaker-color"
+            "model sneaker-silver"
+            "sneaker-purple sneaker-purple";
+
+        max-width: 100%;
+        gap: 0.625rem;
+    }
+
+    .highlight {
+        max-width: 500px;
+    }
+
+    .model {
+        min-height: 370px;
+    }
+
+    .sneaker-while, .sneaker-purple {
+        min-height: 190px;
+    }
+
+    
+}
